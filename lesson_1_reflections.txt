@@ -1,0 +1,20 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+  It compared the lines of code from each file and highlighted the differences from each file. Doing this will help debug a project much faster because the only things that can cause a bug are differences.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+  If you find issues down the line after working on a project, you can easily backtrack and compare past files to see at what point in time did the issue arise and what changed to cause that.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+  The pros of a manual commit is being to create a "checkpoint" when there's a logical change. Examples would be batching typos in a README into one commit or creating a commit for a new feature. However, manual commits are prone to user error, which could possibly allow for lapses of logical commits and checkpoints not being saved. Each user can also decide to commit at different types of intervals (eg. what's logical for one person wouldn't be logical for another).
+
+  Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+    In Git, which is a system designed for programmers, code often has dependences on different files. For instance, in order for a webpage to look and function correctly, it will need a combination of HTML, CSS, and JS files.
+
+How can you use the commands git log and git diff to view the history of files?
+  Git log will pull all the commit changes along with a log of who committed the change and when it was committed. Git diff will compare two commits and highlight the changes between the commits.
+
+How might using version control make you more confident to make changes that could break something?
+  You have a backup plan. You can easily debug something by checking the history and changes within each version. If it really comes down to it, you can also revert to a previous version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+  I want to try using Git for my projects so I don't have to manually save multiple versions on my computer.

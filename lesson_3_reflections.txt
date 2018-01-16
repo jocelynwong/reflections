@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  A remote repository is great for sharing files if you're working on a project with multiple people. This is also a good way to save files in the cloud (if you lose your device that has the files saved locally).

@@ -1,2 +1,11 @@
 When would you want to use a remote repository rather than keeping all your work local?
   A remote repository is great for sharing files if you're working on a project with multiple people. This is also a good way to save files in the cloud (if you lose your device that has the files saved locally).
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+  If Git automatically pulls changes, it could introduce breaking changes to your project when you're not ready to debug. This can get annoying and prevent someone from focusing on their work if they're always debugging.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  Forks are essentially cloning a repository through Github. This has added benefits of not just being easy, but also giving credit to the repository you've cloned it from and allowing you to contribute changes. Cloning will create a copy of the entire repository as well as branches onto your local drive. Branches create a copy of another branch (typically the master)
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  You can work offline after grabbing a copy of the last known state of the remote. This is useful if you won't have access to internet but want to work on your project, either to refer to the current remote or to work on merging your updates and the remote.
